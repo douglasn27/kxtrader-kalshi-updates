@@ -1,17 +1,19 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.2",
-  "build": 3,
-  "title": "KxTrader Beta 1.1.0-beta.2",
-  "published_at": "2026-07-13T00:28:27.1277440Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.2",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.2/KalshiLadderDesktopSetup.exe",
-  "sha256": "d8a0cb75667e044f5cc342b80a1df07c9a205affe87f68a6f1b22a6a4e144bc5",
-  "size_bytes": 55869440,
+  "version": "1.1.0-beta.4",
+  "build": 5,
+  "title": "KxTrader Beta 1.1.0-beta.4",
+  "published_at": "2026-07-13T23:34:09.4985071Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.4",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.4/KalshiLadderDesktopSetup.exe",
+  "delivery": "private_release",
+  "sha256": "0b127e761420414edc6ff0a92d36e38a83899b23dee8c06faaaa89d13173df6a",
+  "size_bytes": 55918592,
   "notes": [
-    "Reposicionamento rapido aguarda o cancelamento anterior por ticker.",
-    "Cliques normais podem continuar como nova exposicao quando a saida ja esta coberta.",
-    "Hedge e Green continuam com fechamento estrito e protecao soberana.",
-    "Mensagens transitorias nao se acumulam sobre a ladder."
+    "P&L de mercados encerrados agora usa o settlement autoritativo da Kalshi.",
+    "Historico deixa de tratar lucro parcial de fills como resultado final.",
+    "Atualizacoes Beta podem ser baixadas e validadas dentro do KxTrader.",
+    "O selo BETA permite verificar atualizacoes manualmente.",
+    "Checagem automatica do canal Beta a cada 15 minutos."
   ]
 }
