@@ -1,17 +1,17 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.1",
-  "build": 2,
-  "title": "KxTrader Beta 1.1.0-beta.1",
-  "published_at": "2026-07-12T21:03:15.5200914Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.1",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.1/KalshiLadderDesktopSetup.exe",
-  "sha256": "380a22b6d513d3a956668dd1792507233dd5babcf2c3e69b29481213e86a1965",
-  "size_bytes": 55865344,
+  "version": "1.1.0-beta.2",
+  "build": 3,
+  "title": "KxTrader Beta 1.1.0-beta.2",
+  "published_at": "2026-07-13T00:28:27.1277440Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.2",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.2/KalshiLadderDesktopSetup.exe",
+  "sha256": "d8a0cb75667e044f5cc342b80a1df07c9a205affe87f68a6f1b22a6a4e144bc5",
+  "size_bytes": 55869440,
   "notes": [
-    "Motor de ordens com reservas atomicas e idempotencia por clique.",
-    "Cancelamento em lote corrigido para rajadas de stakes.",
-    "Ladder Flutter com repaint por frame e reconexao WebSocket segura.",
-    "Canal Beta com aviso opt-in de novas versoes."
+    "Reposicionamento rapido aguarda o cancelamento anterior por ticker.",
+    "Cliques normais podem continuar como nova exposicao quando a saida ja esta coberta.",
+    "Hedge e Green continuam com fechamento estrito e protecao soberana.",
+    "Mensagens transitorias nao se acumulam sobre a ladder."
   ]
 }
