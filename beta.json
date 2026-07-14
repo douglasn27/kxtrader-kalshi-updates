@@ -1,19 +1,19 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.4",
-  "build": 5,
-  "title": "KxTrader Beta 1.1.0-beta.4",
-  "published_at": "2026-07-13T23:34:09.4985071Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.4",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.4/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.5",
+  "build": 6,
+  "title": "KxTrader Beta 1.1.0-beta.5",
+  "published_at": "2026-07-14T01:02:47.5910909Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.5",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.5/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "0b127e761420414edc6ff0a92d36e38a83899b23dee8c06faaaa89d13173df6a",
-  "size_bytes": 55918592,
+  "sha256": "e9cdfeed2fd42f548d084c2513e69b5958b12cedbecab92a66a31b313a64d03a",
+  "size_bytes": 55922688,
   "notes": [
-    "P&L de mercados encerrados agora usa o settlement autoritativo da Kalshi.",
-    "Historico deixa de tratar lucro parcial de fills como resultado final.",
+    "My Trades agora mostra badges proprios para CS2, Valorant, tenis e basquete.",
+    "NBA, WNBA e NCAAB sao identificadas separadamente no historico.",
+    "A classificacao usa ticker e metadados locais, sem adicionar latencia.",
     "Atualizacoes Beta podem ser baixadas e validadas dentro do KxTrader.",
-    "O selo BETA permite verificar atualizacoes manualmente.",
-    "Checagem automatica do canal Beta a cada 15 minutos."
+    "O selo BETA permite verificar atualizacoes manualmente."
   ]
 }
