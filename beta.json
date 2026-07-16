@@ -1,21 +1,20 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.19",
-  "build": 20,
-  "title": "KxTrader Beta 1.1.0-beta.19",
-  "published_at": "2026-07-16T21:42:50.7705246Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.19",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.19/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.20",
+  "build": 21,
+  "title": "KxTrader Beta 1.1.0-beta.20",
+  "published_at": "2026-07-16T23:02:05.4130089Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.20",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.20/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "e66960224ab4ae5247978e87f5115bd5479c904b2a32adaae65404e0b7028caf",
-  "size_bytes": 56160256,
+  "sha256": "622c6ae996f875fcf63a0e97c394b4612578c082cc658d3152c795b0f5abedbf",
+  "size_bytes": 58638336,
   "notes": [
-    "Hedge soberano nunca ultrapassa a posicao conciliada na Kalshi.",
-    "Strict reduce-only agora reserva atomicamente a capacidade de fechamento.",
-    "Cliques repetidos de hedge no mesmo ticker nao podem inverter a posicao.",
-    "Posicoes fracionarias usam somente contratos inteiros disponiveis para fechar.",
-    "Logs de auditoria agora persistem na pasta de dados do aplicativo.",
-    "Atualizacoes Beta podem ser baixadas e validadas dentro do KxTrader.",
-    "Inclui testes de regressao para a inversao observada em Imperial."
+    "Horarios de partidas de CS2 agora sao validados pela agenda publica do HLTV.",
+    "Status LIVE do HLTV atualiza os cards sem inferir o inicio apenas pelo horario.",
+    "Horarios confirmados sao convertidos e exibidos em BRT (GMT-3).",
+    "Cache de 30 segundos e ultimo snapshot valido evitam sobrecarga e oscilacoes.",
+    "Falhas do HLTV retornam silenciosamente aos dados da Kalshi.",
+    "Mercados, liquidez, posicoes e ordens continuam soberanos na Kalshi."
   ]
 }
