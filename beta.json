@@ -1,21 +1,21 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.18",
-  "build": 19,
-  "title": "KxTrader Beta 1.1.0-beta.18",
-  "published_at": "2026-07-16T20:59:59.0167756Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.18",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.18/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.19",
+  "build": 20,
+  "title": "KxTrader Beta 1.1.0-beta.19",
+  "published_at": "2026-07-16T21:42:50.7705246Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.19",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.19/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "ec842eeea9829152217c8ee1674236bb3447e29cdaf901cbca1b099d7c4eb618",
+  "sha256": "e66960224ab4ae5247978e87f5115bd5479c904b2a32adaae65404e0b7028caf",
   "size_bytes": 56160256,
   "notes": [
-    "My Trades agora mostra o custo de taxas por evento e por mercado.",
-    "O resumo do periodo exibe taxas consolidadas para dia, semana, mes ou intervalo personalizado.",
-    "O percentual efetivo usa taxas pagas sobre o volume total negociado.",
-    "Eventos com varios mercados usam soma ponderada de taxas e volume.",
-    "As taxas continuam vindo do historico soberano da API Kalshi.",
+    "Hedge soberano nunca ultrapassa a posicao conciliada na Kalshi.",
+    "Strict reduce-only agora reserva atomicamente a capacidade de fechamento.",
+    "Cliques repetidos de hedge no mesmo ticker nao podem inverter a posicao.",
+    "Posicoes fracionarias usam somente contratos inteiros disponiveis para fechar.",
+    "Logs de auditoria agora persistem na pasta de dados do aplicativo.",
     "Atualizacoes Beta podem ser baixadas e validadas dentro do KxTrader.",
-    "O selo BETA permite verificar atualizacoes manualmente."
+    "Inclui testes de regressao para a inversao observada em Imperial."
   ]
 }
