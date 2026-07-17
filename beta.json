@@ -1,20 +1,20 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.20",
-  "build": 21,
-  "title": "KxTrader Beta 1.1.0-beta.20",
-  "published_at": "2026-07-16T23:02:05.4130089Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.20",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.20/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.22",
+  "build": 23,
+  "title": "KxTrader Beta 1.1.0-beta.22",
+  "published_at": "2026-07-17T19:08:07.8490715Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.22",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.22/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "622c6ae996f875fcf63a0e97c394b4612578c082cc658d3152c795b0f5abedbf",
+  "sha256": "57d8627a8f0cae05b8a5441590c2d0b1c680804eb5d699bd27d97d46cef527f3",
   "size_bytes": 58638336,
   "notes": [
-    "Horarios de partidas de CS2 agora sao validados pela agenda publica do HLTV.",
-    "Status LIVE do HLTV atualiza os cards sem inferir o inicio apenas pelo horario.",
-    "Horarios confirmados sao convertidos e exibidos em BRT (GMT-3).",
-    "Cache de 30 segundos e ultimo snapshot valido evitam sobrecarga e oscilacoes.",
-    "Falhas do HLTV retornam silenciosamente aos dados da Kalshi.",
-    "Mercados, liquidez, posicoes e ordens continuam soberanos na Kalshi."
+    "Stakes aparecem somente depois do aceite confirmado pela Kalshi.",
+    "Confirmacoes concorrentes fora de ordem permanecem visiveis imediatamente apos cada aceite.",
+    "Partial fills reduzem a quantidade restante sem regressao para o valor antigo.",
+    "Ordens preenchidas ou canceladas nao reaparecem por consistencia eventual da API.",
+    "Reinicio e reconexao do backend preservam a reconciliacao por sessao.",
+    "Refresh REST foi retirado do caminho critico de postagem de ordens."
   ]
 }
