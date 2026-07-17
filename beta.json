@@ -1,20 +1,20 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.22",
-  "build": 23,
-  "title": "KxTrader Beta 1.1.0-beta.22",
-  "published_at": "2026-07-17T19:08:07.8490715Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.22",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.22/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.23",
+  "build": 24,
+  "title": "KxTrader Beta 1.1.0-beta.23",
+  "published_at": "2026-07-17T21:33:54.3916570Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.23",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.23/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "57d8627a8f0cae05b8a5441590c2d0b1c680804eb5d699bd27d97d46cef527f3",
-  "size_bytes": 58638336,
+  "sha256": "1385b480606e46c78863340f2d7b6a42a3a17a173d87d682366f459970f65a66",
+  "size_bytes": 58642432,
   "notes": [
-    "Stakes aparecem somente depois do aceite confirmado pela Kalshi.",
-    "Confirmacoes concorrentes fora de ordem permanecem visiveis imediatamente apos cada aceite.",
-    "Partial fills reduzem a quantidade restante sem regressao para o valor antigo.",
-    "Ordens preenchidas ou canceladas nao reaparecem por consistencia eventual da API.",
-    "Reinicio e reconexao do backend preservam a reconciliacao por sessao.",
-    "Refresh REST foi retirado do caminho critico de postagem de ordens."
+    "P&L, posicao, exposicao e taxas agora mudam juntos em um snapshot financeiro atomico.",
+    "Fills intermediarios nao exibem lucros ou prejuizos transitorios na coluna P&L.",
+    "O payload completo de market_position da Kalshi e a fonte de verdade visual.",
+    "Estados incompletos continuam disponiveis ao motor operacional, sem contaminar a tela.",
+    "O ultimo P&L confirmado permanece estavel durante cancelamentos e conciliacao.",
+    "Inclui testes de regressao para fills e posicoes recebidos fora de ordem."
   ]
 }
