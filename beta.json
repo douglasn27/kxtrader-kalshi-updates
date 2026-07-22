@@ -1,19 +1,19 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.28",
-  "build": 29,
-  "title": "KxTrader Beta 1.1.0-beta.28",
-  "published_at": "2026-07-22T19:15:11.4463099Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.28",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.28/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.29",
+  "build": 30,
+  "title": "KxTrader Beta 1.1.0-beta.29",
+  "published_at": "2026-07-22T19:41:57.5357332Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.29",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.29/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "755d83f3a894f45f035a5e925592879de88614809f62bc35326eedafe64497e5",
+  "sha256": "136cca6ad81d866bd385c5a0f1064388ee6403edcb2d6443fd67a801c1ed58e7",
   "size_bytes": 58687488,
   "notes": [
-    "Atualiza cada odd individualmente assim que o delta chega da Kalshi.",
-    "Isola o repaint do book para preservar o motor de ordens, P&L e hedge.",
-    "Descarta respostas REST antigas que poderiam sobrescrever um book WebSocket mais novo.",
-    "Recupera backlog visual obsoleto com snapshot autoritativo sem perder mensagens privadas.",
-    "Renderiza apenas as linhas visiveis da ladder para manter fluidez em mercado intenso."
+    "Preserva cada microdelta da Kalshi em ordem durante o fluxo normal da ladder.",
+    "Remove o colapso visual por tempo que fazia precos e liquidez saltarem em blocos.",
+    "Aciona snapshot de recuperacao somente quando existe saturacao real da fila local.",
+    "Mantem mensagens privadas de ordens, P&L e hedge protegidas durante a recuperacao.",
+    "Inclui regressao automatizada com rajada de 512 deltas individuais sem perda."
   ]
 }
