@@ -1,19 +1,19 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.29",
-  "build": 30,
-  "title": "KxTrader Beta 1.1.0-beta.29",
-  "published_at": "2026-07-22T19:41:57.5357332Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.29",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.29/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.30",
+  "build": 31,
+  "title": "KxTrader Beta 1.1.0-beta.30",
+  "published_at": "2026-07-22T20:16:28.8192030Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.30",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.30/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "136cca6ad81d866bd385c5a0f1064388ee6403edcb2d6443fd67a801c1ed58e7",
-  "size_bytes": 58687488,
+  "sha256": "a231cd8909a7b81d82850378eb0d0c8e86273d39bd198c71ae51f07aa0b6b943",
+  "size_bytes": 58691584,
   "notes": [
-    "Preserva cada microdelta da Kalshi em ordem durante o fluxo normal da ladder.",
-    "Remove o colapso visual por tempo que fazia precos e liquidez saltarem em blocos.",
-    "Aciona snapshot de recuperacao somente quando existe saturacao real da fila local.",
-    "Mantem mensagens privadas de ordens, P&L e hedge protegidas durante a recuperacao.",
-    "Inclui regressao automatizada com rajada de 512 deltas individuais sem perda."
+    "Reproduz um microdelta da Kalshi por frame, em sequencia, sem saltar ao estado final.",
+    "Preserva estados intermediarios quando a mesma odd muda varias vezes numa rajada.",
+    "Mantem recebimento WebSocket desacoplado do playback para nao atrasar ordens, P&L ou hedge.",
+    "Recupera por snapshot somente em lacuna de sequencia ou saturacao extrema da fila visual.",
+    "Inclui regressao automatizada com 512 deltas e alteracoes sucessivas na mesma odd."
   ]
 }
