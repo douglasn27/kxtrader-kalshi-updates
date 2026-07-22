@@ -1,19 +1,19 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.25",
-  "build": 26,
-  "title": "KxTrader Beta 1.1.0-beta.25",
-  "published_at": "2026-07-22T01:52:40.8923415Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.25",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.25/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.28",
+  "build": 29,
+  "title": "KxTrader Beta 1.1.0-beta.28",
+  "published_at": "2026-07-22T19:15:11.4463099Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.28",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.28/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "2ebb0fe551364598353f2f9dea725e01732345c996b98669836e4357e9dde94b",
-  "size_bytes": 58646528,
+  "sha256": "755d83f3a894f45f035a5e925592879de88614809f62bc35326eedafe64497e5",
+  "size_bytes": 58687488,
   "notes": [
-    "Mantem o ping REST backend-Kalshi visivel mesmo nas ladders estreitas.",
-    "O indicador de latencia agora fica apos Limit na linha de operacao.",
-    "O chip compacto usa cores por faixa de latencia e nao altera o fluxo de ordens.",
-    "Preserva o preview financeiro no hover de BACK e LAY.",
-    "Inclui teste de regressao para largura compacta sem overflow."
+    "Atualiza cada odd individualmente assim que o delta chega da Kalshi.",
+    "Isola o repaint do book para preservar o motor de ordens, P&L e hedge.",
+    "Descarta respostas REST antigas que poderiam sobrescrever um book WebSocket mais novo.",
+    "Recupera backlog visual obsoleto com snapshot autoritativo sem perder mensagens privadas.",
+    "Renderiza apenas as linhas visiveis da ladder para manter fluidez em mercado intenso."
   ]
 }
