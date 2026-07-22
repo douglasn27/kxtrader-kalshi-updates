@@ -1,20 +1,19 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.24",
-  "build": 25,
-  "title": "KxTrader Beta 1.1.0-beta.24",
-  "published_at": "2026-07-22T01:16:18.2063298Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.24",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.24/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.25",
+  "build": 26,
+  "title": "KxTrader Beta 1.1.0-beta.25",
+  "published_at": "2026-07-22T01:52:40.8923415Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.25",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.25/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "d51f79dbdb982e01524c974e87471f0c106d0ab4565fb60148f6c94f7641370b",
+  "sha256": "2ebb0fe551364598353f2f9dea725e01732345c996b98669836e4357e9dde94b",
   "size_bytes": 58646528,
   "notes": [
-    "Mostra no topo da ladder a latencia REST medida entre o backend e a Kalshi.",
-    "O indicador de ping usa cache curto e nao interfere no fluxo de ordens ou order book.",
-    "O hover em BACK e LAY antecipa o P&L dos outcomes para a responsabilidade selecionada.",
-    "A previsao usa somente a posicao financeira confirmada e nao inclui taxa futura.",
-    "Controles de stake e operacao ficaram mais baixos e compactos para ampliar a ladder.",
-    "Inclui testes de regressao do endpoint de latencia e das projecoes de P&L."
+    "Mantem o ping REST backend-Kalshi visivel mesmo nas ladders estreitas.",
+    "O indicador de latencia agora fica apos Limit na linha de operacao.",
+    "O chip compacto usa cores por faixa de latencia e nao altera o fluxo de ordens.",
+    "Preserva o preview financeiro no hover de BACK e LAY.",
+    "Inclui teste de regressao para largura compacta sem overflow."
   ]
 }
