@@ -1,20 +1,20 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.23",
-  "build": 24,
-  "title": "KxTrader Beta 1.1.0-beta.23",
-  "published_at": "2026-07-17T21:33:54.3916570Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.23",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.23/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.24",
+  "build": 25,
+  "title": "KxTrader Beta 1.1.0-beta.24",
+  "published_at": "2026-07-22T01:16:18.2063298Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.24",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.24/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "1385b480606e46c78863340f2d7b6a42a3a17a173d87d682366f459970f65a66",
-  "size_bytes": 58642432,
+  "sha256": "d51f79dbdb982e01524c974e87471f0c106d0ab4565fb60148f6c94f7641370b",
+  "size_bytes": 58646528,
   "notes": [
-    "P&L, posicao, exposicao e taxas agora mudam juntos em um snapshot financeiro atomico.",
-    "Fills intermediarios nao exibem lucros ou prejuizos transitorios na coluna P&L.",
-    "O payload completo de market_position da Kalshi e a fonte de verdade visual.",
-    "Estados incompletos continuam disponiveis ao motor operacional, sem contaminar a tela.",
-    "O ultimo P&L confirmado permanece estavel durante cancelamentos e conciliacao.",
-    "Inclui testes de regressao para fills e posicoes recebidos fora de ordem."
+    "Mostra no topo da ladder a latencia REST medida entre o backend e a Kalshi.",
+    "O indicador de ping usa cache curto e nao interfere no fluxo de ordens ou order book.",
+    "O hover em BACK e LAY antecipa o P&L dos outcomes para a responsabilidade selecionada.",
+    "A previsao usa somente a posicao financeira confirmada e nao inclui taxa futura.",
+    "Controles de stake e operacao ficaram mais baixos e compactos para ampliar a ladder.",
+    "Inclui testes de regressao do endpoint de latencia e das projecoes de P&L."
   ]
 }
