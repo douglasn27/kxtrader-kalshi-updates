@@ -1,19 +1,19 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.30",
-  "build": 31,
-  "title": "KxTrader Beta 1.1.0-beta.30",
-  "published_at": "2026-07-22T20:16:28.8192030Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.30",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.30/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.31",
+  "build": 32,
+  "title": "KxTrader Beta 1.1.0-beta.31",
+  "published_at": "2026-07-23T00:09:44.9685878Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.31",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.31/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "a231cd8909a7b81d82850378eb0d0c8e86273d39bd198c71ae51f07aa0b6b943",
-  "size_bytes": 58691584,
+  "sha256": "908f3dcde2d71198907591d31d41e806b8e6db4dbd555899708886dcb08580ab",
+  "size_bytes": 58699776,
   "notes": [
-    "Reproduz um microdelta da Kalshi por frame, em sequencia, sem saltar ao estado final.",
-    "Preserva estados intermediarios quando a mesma odd muda varias vezes numa rajada.",
-    "Mantem recebimento WebSocket desacoplado do playback para nao atrasar ordens, P&L ou hedge.",
-    "Recupera por snapshot somente em lacuna de sequencia ou saturacao extrema da fila visual.",
-    "Inclui regressao automatizada com 512 deltas e alteracoes sucessivas na mesma odd."
+    "Mantem o Fast Path de microdeltas que equiparou a fluidez visual ao Traderline.",
+    "Atualiza a ladder diretamente pelo listenable de pintura, sem rebuild completo a cada frame.",
+    "Sincroniza a odd atual com o price_dollars oficial do ticker WebSocket da Kalshi.",
+    "Rejeita referencias antigas para impedir que o destaque de preco volte no tempo.",
+    "Preserva motor de ordens, P&L, hedge e sequenciamento incremental do orderbook."
   ]
 }
