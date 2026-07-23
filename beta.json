@@ -1,19 +1,19 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.31",
-  "build": 32,
-  "title": "KxTrader Beta 1.1.0-beta.31",
-  "published_at": "2026-07-23T00:09:44.9685878Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.31",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.31/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.32",
+  "build": 33,
+  "title": "KxTrader Beta 1.1.0-beta.32",
+  "published_at": "2026-07-23T00:31:50.4735099Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.32",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.32/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "908f3dcde2d71198907591d31d41e806b8e6db4dbd555899708886dcb08580ab",
+  "sha256": "084b2dbf61e26d65ae715ab617a2a8b632fa5fa734090058d15dbb5f37330f47",
   "size_bytes": 58699776,
   "notes": [
     "Mantem o Fast Path de microdeltas que equiparou a fluidez visual ao Traderline.",
-    "Atualiza a ladder diretamente pelo listenable de pintura, sem rebuild completo a cada frame.",
-    "Sincroniza a odd atual com o price_dollars oficial do ticker WebSocket da Kalshi.",
-    "Rejeita referencias antigas para impedir que o destaque de preco volte no tempo.",
+    "Sincroniza a odd atual pelo canal publico trade, emitido a cada execucao pela Kalshi.",
+    "Usa o ticker apenas como bootstrap e impede mensagens agregadas antigas de sobrescrever trades.",
+    "Mantem prioridade temporal para impedir que o destaque de preco volte no tempo.",
     "Preserva motor de ordens, P&L, hedge e sequenciamento incremental do orderbook."
   ]
 }
