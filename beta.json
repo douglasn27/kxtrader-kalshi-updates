@@ -1,19 +1,18 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.33",
-  "build": 34,
-  "title": "KxTrader Beta 1.1.0-beta.33",
-  "published_at": "2026-07-23T01:06:22.7135409Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.33",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.33/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.35",
+  "build": 36,
+  "title": "KxTrader Beta 1.1.0-beta.35",
+  "published_at": "2026-07-24T12:40:53.8290794Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.35",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.35/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "de727b81fdee647045dfc7cd4e8013d1614d8f69bb880e08c4e4a92f5b2e6b95",
-  "size_bytes": 58699776,
+  "sha256": "7db4f6019be8502603bd00a63381be210c3ba633619b7d728ea1e4a9d80e2bb7",
+  "size_bytes": 58720256,
   "notes": [
-    "Restaura os microdeltas da profundidade quando varias ladders compartilham a mesma assinatura Kalshi.",
-    "Valida a sequencia upstream por SID e entrega uma sequencia local continua para cada ticker.",
-    "Mapeia corretamente mercados adicionados depois da primeira ladder na assinatura existente.",
-    "Mantem a odd atual sincronizada pelo canal publico trade introduzido na Beta 32.",
-    "Preserva integralmente motor de ordens, P&L e hedge."
+    "Impede que ordens ja canceladas reaparecam visualmente na ladder.",
+    "Snapshots autoritativos removem stakes antigas mesmo dentro da mesma revisao de tela.",
+    "Encerra a protecao temporaria do ACK assim que Kalshi confirma a ordem por websocket ou REST.",
+    "Mantem protegidos apenas ACKs realmente mais novos durante rajadas rapidas de cliques."
   ]
 }
