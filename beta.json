@@ -1,18 +1,18 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.35",
-  "build": 36,
-  "title": "KxTrader Beta 1.1.0-beta.35",
-  "published_at": "2026-07-24T12:40:53.8290794Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.35",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.35/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.36",
+  "build": 37,
+  "title": "KxTrader Beta 1.1.0-beta.36",
+  "published_at": "2026-07-26T17:08:08.8402162Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.36",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.36/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "7db4f6019be8502603bd00a63381be210c3ba633619b7d728ea1e4a9d80e2bb7",
+  "sha256": "6e6035fd19ff19a07c7c7ad0a3bbea3e0036fe380efea0e4142e7c2d4a827941",
   "size_bytes": 58720256,
   "notes": [
-    "Impede que ordens ja canceladas reaparecam visualmente na ladder.",
-    "Snapshots autoritativos removem stakes antigas mesmo dentro da mesma revisao de tela.",
-    "Encerra a protecao temporaria do ACK assim que Kalshi confirma a ordem por websocket ou REST.",
-    "Mantem protegidos apenas ACKs realmente mais novos durante rajadas rapidas de cliques."
+    "Mantem o cabecalho P&L, LAY, ODDS, BACK e VOL sempre visivel durante o scroll.",
+    "Faz somente as 99 linhas de preco, a partir da odd 100, moverem na area rolavel.",
+    "Realinha clique, hover, pulsos de liquidez e rastro de preco ao corpo da ladder.",
+    "Inclui teste de regressao do cabecalho fixo em todos os temas visuais."
   ]
 }
