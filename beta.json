@@ -1,18 +1,19 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.42",
-  "build": 43,
-  "title": "KxTrader Beta 1.1.0-beta.42",
-  "published_at": "2026-07-29T16:56:38.6087527Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.42",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.42/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.43",
+  "build": 44,
+  "title": "KxTrader Beta 1.1.0-beta.43",
+  "published_at": "2026-07-29T18:32:22.6356588Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.43",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.43/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "96d7c6c908e864173994a1ad614bb97d938072bd2341c320c2f4d9edbc0657eb",
+  "sha256": "cd216e3b73d5a16b6a9aa9a7e4527ca4df834aa0d476f673d136bba979fb7742",
   "size_bytes": 58777600,
   "notes": [
-    "Resume os mercados no Account Tape com rotulos como Match Odds, Map 2 e Set 2.",
-    "Remove perguntas extensas e tickers tecnicos da linha secundaria das execucoes.",
-    "Distingue totais, handicaps, spreads, avanco e placar exato com rotulos compactos.",
+    "Exibe ate tres cards de evento por linha em monitores desktop, preservando proporcoes e legibilidade.",
+    "Adiciona seletor persistente entre visualizacao em cards e lista compacta ao lado da atualizacao.",
+    "Ordena a lista por horario e preserva a identidade, o icone, o status, a liquidez e as cotacoes do esporte.",
+    "Passa a respeitar as configuracoes existentes de cards compactos e altura do board.",
     "Preserva integralmente o motor de ordens, reconciliacao, hedge, fast path e ladders."
   ]
 }
