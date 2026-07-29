@@ -1,19 +1,19 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.40",
-  "build": 41,
-  "title": "KxTrader Beta 1.1.0-beta.40",
-  "published_at": "2026-07-29T14:25:50.8553682Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.40",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.40/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.41",
+  "build": 42,
+  "title": "KxTrader Beta 1.1.0-beta.41",
+  "published_at": "2026-07-29T16:02:29.7404848Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.41",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.41/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "f4d5703e6d81e6c3669fac0432fa79af3b9a540d147136fe1850a0f8dc73269d",
-  "size_bytes": 58765312,
+  "sha256": "0aba2dc1bd7f479a674175d567207e33f3c5d8a04ef50a482c07d55d03b978a9",
+  "size_bytes": 58769408,
   "notes": [
-    "Adota o layout Material Pro na tela Markets com grade responsiva de eventos.",
-    "Organiza dois eventos por linha em telas largas e uma coluna em janelas menores.",
-    "Substitui o indicador PROD por um estado compacto de API verificada e pronta para ordens.",
-    "Moderniza navegacao, pesquisa, status, liquidez e a abertura dos mercados.",
-    "Preserva o motor de ordens, reconciliacao, hedge, fast path e abertura de ladders."
+    "Refina o Material Pro com cards de evento mais detalhados e melhor hierarquia visual.",
+    "Adiciona identidade visual especifica por esporte e usa os assets oficiais de CS2, NBA e WNBA.",
+    "Reorganiza horario, competicao, status, liquidez e cotacoes BACK/LAY para leitura mais rapida.",
+    "Mantem a grade responsiva em duas colunas e adapta o card para janelas menores.",
+    "Preserva integralmente o motor de ordens, reconciliacao, hedge, fast path e ladders."
   ]
 }
