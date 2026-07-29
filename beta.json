@@ -1,19 +1,18 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.41",
-  "build": 42,
-  "title": "KxTrader Beta 1.1.0-beta.41",
-  "published_at": "2026-07-29T16:02:29.7404848Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.41",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.41/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.42",
+  "build": 43,
+  "title": "KxTrader Beta 1.1.0-beta.42",
+  "published_at": "2026-07-29T16:56:38.6087527Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.42",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.42/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "0aba2dc1bd7f479a674175d567207e33f3c5d8a04ef50a482c07d55d03b978a9",
-  "size_bytes": 58769408,
+  "sha256": "96d7c6c908e864173994a1ad614bb97d938072bd2341c320c2f4d9edbc0657eb",
+  "size_bytes": 58777600,
   "notes": [
-    "Refina o Material Pro com cards de evento mais detalhados e melhor hierarquia visual.",
-    "Adiciona identidade visual especifica por esporte e usa os assets oficiais de CS2, NBA e WNBA.",
-    "Reorganiza horario, competicao, status, liquidez e cotacoes BACK/LAY para leitura mais rapida.",
-    "Mantem a grade responsiva em duas colunas e adapta o card para janelas menores.",
+    "Resume os mercados no Account Tape com rotulos como Match Odds, Map 2 e Set 2.",
+    "Remove perguntas extensas e tickers tecnicos da linha secundaria das execucoes.",
+    "Distingue totais, handicaps, spreads, avanco e placar exato com rotulos compactos.",
     "Preserva integralmente o motor de ordens, reconciliacao, hedge, fast path e ladders."
   ]
 }
