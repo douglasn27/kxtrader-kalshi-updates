@@ -1,18 +1,19 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.36",
-  "build": 37,
-  "title": "KxTrader Beta 1.1.0-beta.36",
-  "published_at": "2026-07-26T17:08:08.8402162Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.36",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.36/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.40",
+  "build": 41,
+  "title": "KxTrader Beta 1.1.0-beta.40",
+  "published_at": "2026-07-29T14:25:50.8553682Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.40",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.40/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "6e6035fd19ff19a07c7c7ad0a3bbea3e0036fe380efea0e4142e7c2d4a827941",
-  "size_bytes": 58720256,
+  "sha256": "f4d5703e6d81e6c3669fac0432fa79af3b9a540d147136fe1850a0f8dc73269d",
+  "size_bytes": 58765312,
   "notes": [
-    "Mantem o cabecalho P&L, LAY, ODDS, BACK e VOL sempre visivel durante o scroll.",
-    "Faz somente as 99 linhas de preco, a partir da odd 100, moverem na area rolavel.",
-    "Realinha clique, hover, pulsos de liquidez e rastro de preco ao corpo da ladder.",
-    "Inclui teste de regressao do cabecalho fixo em todos os temas visuais."
+    "Adota o layout Material Pro na tela Markets com grade responsiva de eventos.",
+    "Organiza dois eventos por linha em telas largas e uma coluna em janelas menores.",
+    "Substitui o indicador PROD por um estado compacto de API verificada e pronta para ordens.",
+    "Moderniza navegacao, pesquisa, status, liquidez e a abertura dos mercados.",
+    "Preserva o motor de ordens, reconciliacao, hedge, fast path e abertura de ladders."
   ]
 }
