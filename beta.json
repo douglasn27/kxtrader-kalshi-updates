@@ -1,19 +1,20 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.43",
-  "build": 44,
-  "title": "KxTrader Beta 1.1.0-beta.43",
-  "published_at": "2026-07-29T18:32:22.6356588Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.43",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.43/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.44",
+  "build": 45,
+  "title": "KxTrader Beta 1.1.0-beta.44",
+  "published_at": "2026-08-10T15:28:50.6921259Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.44",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.44/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "cd216e3b73d5a16b6a9aa9a7e4527ca4df834aa0d476f673d136bba979fb7742",
-  "size_bytes": 58777600,
+  "sha256": "21f91040782eb71165dd06761edf0f14caadf48f6433a107ca7c6e4f0280b2c5",
+  "size_bytes": 58830848,
   "notes": [
-    "Exibe ate tres cards de evento por linha em monitores desktop, preservando proporcoes e legibilidade.",
-    "Adiciona seletor persistente entre visualizacao em cards e lista compacta ao lado da atualizacao.",
-    "Ordena a lista por horario e preserva a identidade, o icone, o status, a liquidez e as cotacoes do esporte.",
-    "Passa a respeitar as configuracoes existentes de cards compactos e altura do board.",
+    "Adiciona presets de stake compactos, rolaveis e personalizaveis, com inclusao, remocao e reordenacao persistentes.",
+    "Inclui atalhos configuraveis para selecionar a stake anterior e a proxima stake sem tirar o foco da ladder.",
+    "Adiciona opcoes de fonte e escala tipografica protegida para melhorar a leitura sem quebrar o encaixe da ladder.",
+    "Compacta o resumo inferior de P&L, posicao, exposicao e taxas em todos os temas visuais.",
+    "Remove o atalho de configuracoes das janelas de ladder e centraliza a personalizacao na tela principal.",
     "Preserva integralmente o motor de ordens, reconciliacao, hedge, fast path e ladders."
   ]
 }
