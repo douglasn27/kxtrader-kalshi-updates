@@ -1,20 +1,20 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.46",
-  "build": 47,
-  "title": "KxTrader Beta 1.1.0-beta.46",
-  "published_at": "2026-08-12T14:21:36.2959027Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.46",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.46/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.47",
+  "build": 48,
+  "title": "KxTrader Beta 1.1.0-beta.47",
+  "published_at": "2026-08-13T19:24:00.5492299Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.47",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.47/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "db83380a209e975ee29dcc371b51e0dd987fe04570a39632a9a641b31cd6c8e2",
+  "sha256": "11901f587a83cb71ab921f2264541d23322ce27f09452ee26c675a9485335b5c",
   "size_bytes": 58839040,
   "notes": [
-    "Corrige o falso estado API offline quando o backend e os mercados continuam operacionais.",
-    "Adiciona um endpoint local dedicado e monitor periodico para a saude real do backend.",
-    "Exige tres falhas consecutivas antes de declarar a API offline.",
-    "Classifica falhas transitorias de conta ou saldo como API instavel, sem confundir com indisponibilidade total.",
-    "Preserva o ultimo estado valido da conta durante falhas temporarias de leitura.",
+    "Adiciona o tema Midnight OLED ao seletor de estilos da ladder.",
+    "Aplica preto profundo com LAY vinho escuro, BACK azul-petroleo e VOL grafite.",
+    "Mantem grades discretas, contraste operacional e detalhes em ciano para leitura rapida.",
+    "Persiste a escolha do tema por usuario junto das demais preferencias do KxTrader.",
+    "Inclui validacao automatizada do tema e da restauracao de suas configuracoes.",
     "Mantem integralmente o motor de ordens, reconciliacao, hedge, fast path e ladders."
   ]
 }
