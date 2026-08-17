@@ -1,20 +1,20 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.47",
-  "build": 48,
-  "title": "KxTrader Beta 1.1.0-beta.47",
-  "published_at": "2026-08-13T19:24:00.5492299Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.47",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.47/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.49",
+  "build": 50,
+  "title": "KxTrader Beta 1.1.0-beta.49",
+  "published_at": "2026-08-17T20:32:59.8643453Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.49",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.49/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "11901f587a83cb71ab921f2264541d23322ce27f09452ee26c675a9485335b5c",
-  "size_bytes": 58839040,
+  "sha256": "3969365614baae3ed81456bdfa9a90fdc7dd6b006f0f6f04693799e28d35ee10",
+  "size_bytes": 58847232,
   "notes": [
-    "Adiciona o tema Midnight OLED ao seletor de estilos da ladder.",
-    "Aplica preto profundo com LAY vinho escuro, BACK azul-petroleo e VOL grafite.",
-    "Mantem grades discretas, contraste operacional e detalhes em ciano para leitura rapida.",
-    "Persiste a escolha do tema por usuario junto das demais preferencias do KxTrader.",
-    "Inclui validacao automatizada do tema e da restauracao de suas configuracoes.",
-    "Mantem integralmente o motor de ordens, reconciliacao, hedge, fast path e ladders."
+    "Adiciona simulacao opcional de P&L por clique direito nas celulas BACK e LAY.",
+    "Projeta a stake selecionada junto da posicao e do P&L ja conciliados pela Kalshi.",
+    "Permite retirar a simulacao ao sair da odd ou com um segundo clique direito.",
+    "Moderniza a janela de mercados com agrupamento, identidade visual e metadados do evento.",
+    "Inclui testes automatizados para os dois modos de simulacao e para a abertura dos mercados.",
+    "Mantem intactos o clique esquerdo, o motor de ordens, reconciliacao, hedge e fast path."
   ]
 }
