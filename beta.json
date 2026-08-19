@@ -1,20 +1,21 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.49",
-  "build": 50,
-  "title": "KxTrader Beta 1.1.0-beta.49",
-  "published_at": "2026-08-17T20:32:59.8643453Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.49",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.49/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.50",
+  "build": 51,
+  "title": "KxTrader Beta 1.1.0-beta.50",
+  "published_at": "2026-08-19T22:14:52.0328271Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.50",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.50/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "3969365614baae3ed81456bdfa9a90fdc7dd6b006f0f6f04693799e28d35ee10",
-  "size_bytes": 58847232,
+  "sha256": "adcf8396d93bee943b59710c46deba5fada979bf297880e33ec6b80b9bc8bc18",
+  "size_bytes": 58855424,
   "notes": [
-    "Adiciona simulacao opcional de P&L por clique direito nas celulas BACK e LAY.",
-    "Projeta a stake selecionada junto da posicao e do P&L ja conciliados pela Kalshi.",
-    "Permite retirar a simulacao ao sair da odd ou com um segundo clique direito.",
-    "Moderniza a janela de mercados com agrupamento, identidade visual e metadados do evento.",
-    "Inclui testes automatizados para os dois modos de simulacao e para a abertura dos mercados.",
-    "Mantem intactos o clique esquerdo, o motor de ordens, reconciliacao, hedge e fast path."
+    "Compacta as linhas de ordens correspondidas para exibir mais execucoes no painel Matched.",
+    "Adiciona cancelamento individual por X nas linhas Unmatched usando o order_id confirmado pela Kalshi.",
+    "Mantem a area Matched e Unmatched redimensionavel verticalmente com limites seguros e rodape compacto.",
+    "Limita a largura maxima da janela de ladder a 572 pixels logicos, duas vezes a abertura padrao.",
+    "Inclui protecao contra cliques duplicados durante o cancelamento individual e restauracao visual em caso de erro da API.",
+    "Adiciona cobertura automatizada para cancelamento individual em todos os temas da ladder.",
+    "Mantem intactos o envio de ordens, conciliacao financeira, P&L, hedge, book e fast path."
   ]
 }
