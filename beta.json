@@ -1,21 +1,21 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.50",
-  "build": 51,
-  "title": "KxTrader Beta 1.1.0-beta.50",
-  "published_at": "2026-08-19T22:14:52.0328271Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.50",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.50/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.51",
+  "build": 52,
+  "title": "KxTrader Beta 1.1.0-beta.51",
+  "published_at": "2026-08-19T23:09:24.5280650Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.51",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.51/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "adcf8396d93bee943b59710c46deba5fada979bf297880e33ec6b80b9bc8bc18",
-  "size_bytes": 58855424,
+  "sha256": "d0a46449bedfdec65809bd6956b75e0a175cb1b287cf06d08c40d380608efd63",
+  "size_bytes": 58851328,
   "notes": [
-    "Compacta as linhas de ordens correspondidas para exibir mais execucoes no painel Matched.",
-    "Adiciona cancelamento individual por X nas linhas Unmatched usando o order_id confirmado pela Kalshi.",
-    "Mantem a area Matched e Unmatched redimensionavel verticalmente com limites seguros e rodape compacto.",
-    "Limita a largura maxima da janela de ladder a 572 pixels logicos, duas vezes a abertura padrao.",
-    "Inclui protecao contra cliques duplicados durante o cancelamento individual e restauracao visual em caso de erro da API.",
-    "Adiciona cobertura automatizada para cancelamento individual em todos os temas da ladder.",
-    "Mantem intactos o envio de ordens, conciliacao financeira, P&L, hedge, book e fast path."
+    "Redesenha Matched e Unmatched com linhas retangulares compactas e maior densidade de execucoes.",
+    "Separa valor e odd, destacando a odd em um retangulo contornado na cor da operacao.",
+    "Mantem BACK azul e LAY vermelho ou rosa conforme a paleta selecionada no KxTrader.",
+    "Exibe Matched antes de Unmatched e preserva o cancelamento individual por X nas ordens pendentes.",
+    "Aplica o novo acabamento de forma responsiva a todos os temas, incluindo o modo Legado.",
+    "Adiciona testes de regressao visual para a caixa de odd e para todas as larguras de trading.",
+    "Mantem intactos envio e cancelamento de ordens, conciliacao, P&L, hedge, book e fast path."
   ]
 }
