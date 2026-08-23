@@ -1,21 +1,18 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.51",
-  "build": 52,
-  "title": "KxTrader Beta 1.1.0-beta.51",
-  "published_at": "2026-08-19T23:09:24.5280650Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.51",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.51/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.57",
+  "build": 58,
+  "title": "KxTrader Beta 1.1.0-beta.57",
+  "published_at": "2026-08-23T21:06:21.6403805Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.57",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.57/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "d0a46449bedfdec65809bd6956b75e0a175cb1b287cf06d08c40d380608efd63",
-  "size_bytes": 58851328,
+  "sha256": "7c03f48c1bc1e2a434b4c30910f1ea16d0f718bcce923126f71cfec1396f1b75",
+  "size_bytes": 59981824,
   "notes": [
-    "Redesenha Matched e Unmatched com linhas retangulares compactas e maior densidade de execucoes.",
-    "Separa valor e odd, destacando a odd em um retangulo contornado na cor da operacao.",
-    "Mantem BACK azul e LAY vermelho ou rosa conforme a paleta selecionada no KxTrader.",
-    "Exibe Matched antes de Unmatched e preserva o cancelamento individual por X nas ordens pendentes.",
-    "Aplica o novo acabamento de forma responsiva a todos os temas, incluindo o modo Legado.",
-    "Adiciona testes de regressao visual para a caixa de odd e para todas as larguras de trading.",
-    "Mantem intactos envio e cancelamento de ordens, conciliacao, P&L, hedge, book e fast path."
+    "Adiciona o tema KX Graphite Pulse em Configuracoes > Mercado, com preview integrado.",
+    "Mantem altura de linhas, espacamento de celulas e areas de clique nos padroes operacionais do KxTrader.",
+    "Aplica LAY vermelho profundo, BACK azul denso e VOL grafite com acabamento de alta densidade.",
+    "Destaca a odd atual em teal e preserva integralmente o motor de ordens, hedge e P&L."
   ]
 }
