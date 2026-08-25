@@ -1,18 +1,19 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.57",
-  "build": 58,
-  "title": "KxTrader Beta 1.1.0-beta.57",
-  "published_at": "2026-08-23T21:06:21.6403805Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.57",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.57/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.61",
+  "build": 62,
+  "title": "KxTrader Beta 1.1.0-beta.61",
+  "published_at": "2026-08-25T17:51:24.4086710Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.61",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.61/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "7c03f48c1bc1e2a434b4c30910f1ea16d0f718bcce923126f71cfec1396f1b75",
-  "size_bytes": 59981824,
+  "sha256": "e7a7821695bdc51a0bea867de8e94488199c507ae3bc1de486b88695eebb64bf",
+  "size_bytes": 59994112,
   "notes": [
-    "Adiciona o tema KX Graphite Pulse em Configuracoes > Mercado, com preview integrado.",
-    "Mantem altura de linhas, espacamento de celulas e areas de clique nos padroes operacionais do KxTrader.",
-    "Aplica LAY vermelho profundo, BACK azul denso e VOL grafite com acabamento de alta densidade.",
-    "Destaca a odd atual em teal e preserva integralmente o motor de ordens, hedge e P&L."
+    "Forca o auto-roteamento oficial da Kalshi V2 com exchange_index -1 ao criar ordens por ticker.",
+    "Mantem subaccount ausente por padrao para contas individuais e API keys vinculadas pela Kalshi.",
+    "Aplica o mesmo protocolo no backend Desktop e no cliente Android independente sem alterar book, P&L, hedge ou reservas.",
+    "Distingue falha de roteamento, mercado indisponivel e saldo insuficiente em avisos compactos e seguros.",
+    "Adiciona testes de regressao para o payload V2 e para a classificacao dos retornos da Kalshi."
   ]
 }
