@@ -1,19 +1,20 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.61",
-  "build": 62,
-  "title": "KxTrader Beta 1.1.0-beta.61",
-  "published_at": "2026-08-25T17:51:24.4086710Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.61",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.61/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.62",
+  "build": 63,
+  "title": "KxTrader Beta 1.1.0-beta.62",
+  "published_at": "2026-08-26T00:27:08.5140558Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.62",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.62/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "e7a7821695bdc51a0bea867de8e94488199c507ae3bc1de486b88695eebb64bf",
-  "size_bytes": 59994112,
+  "sha256": "6e8086a04c0fea34727d6ad2c9873b6531dd0bfcfde650f5efbbaf8af5f34fe9",
+  "size_bytes": 60039168,
   "notes": [
-    "Forca o auto-roteamento oficial da Kalshi V2 com exchange_index -1 ao criar ordens por ticker.",
-    "Mantem subaccount ausente por padrao para contas individuais e API keys vinculadas pela Kalshi.",
-    "Aplica o mesmo protocolo no backend Desktop e no cliente Android independente sem alterar book, P&L, hedge ou reservas.",
-    "Distingue falha de roteamento, mercado indisponivel e saldo insuficiente em avisos compactos e seguros.",
-    "Adiciona testes de regressao para o payload V2 e para a classificacao dos retornos da Kalshi."
+    "Adiciona o tema KX Terminal Black com preto absoluto, grade quadrada e contraste visual descansado.",
+    "Usa BACK azul petroleo, LAY vinho profundo e VOL grafite sem alterar a geometria compacta da ladder.",
+    "Inclui o novo tema no seletor, na previa visual e na persistencia das preferencias do usuario.",
+    "Adiciona o painel de saldos por shard com transferencias em dolares entre exchange indexes.",
+    "Melhora os diagnosticos de saldo insuficiente no shard e os tooltips compactos com atraso de tres segundos.",
+    "Mantem intactos book, P&L, hedge, conciliacao, reservas e fast path de mercado."
   ]
 }
