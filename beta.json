@@ -1,19 +1,20 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.64",
-  "build": 65,
-  "title": "KxTrader Beta 1.1.0-beta.64",
-  "published_at": "2026-08-26T12:29:40.9059085Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.64",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.64/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.68",
+  "build": 69,
+  "title": "KxTrader Beta 1.1.0-beta.68",
+  "published_at": "2026-08-29T21:10:39.4968250Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.68",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.68/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "365851a52148528cc81024b052ef2fa95d3a33b48af72f39617c043ed66b3df2",
-  "size_bytes": 60047360,
+  "sha256": "4095b84a3d36d637198faadd1cd54e36b8d7f801659103d6b5332eca30d3fabd",
+  "size_bytes": 61108224,
   "notes": [
-    "Aplica o acabamento Onyx Precision V2 na tela principal, com contraste refinado, linhas mais precisas e hierarquia visual premium.",
-    "Moderniza os icones genericos do topo, navegacao, filtros e controles, preservando os icones proprios de cada esporte e competicao.",
-    "Refina o board de mercados, os seletores de visualizacao e os estados ativos sem alterar a densidade operacional.",
-    "Traduz mensagens operacionais e de green-up para portugues do Brasil, com avisos mais claros e seguros.",
-    "Mantem intactos o motor de ordens, book, P&L, hedge, conciliacao, reservas e fast path de mercado."
+    "Inclui a taxa estimada da Kalshi nas simulacoes de P&L da ladder.",
+    "Destaca em amarelo os ticks cujo resultado bruto e consumido pela taxa estimada.",
+    "Adiciona a projecao rapida de P&L apos 2 segundos sobre uma celula BACK ou LAY, desativada por padrao.",
+    "Mostra no topo lado, stake, odd, resultados YES e NO e taxa estimada, sem criar ordens.",
+    "Da prioridade a simulacao completa por clique direito e evita sobreposicao entre os dois modos.",
+    "Mantem intactos envio de ordens, cancelamento, book, P&L conciliado, hedge, reservas e fast path de mercado."
   ]
 }
