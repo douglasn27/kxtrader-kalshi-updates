@@ -1,20 +1,21 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.68",
-  "build": 69,
-  "title": "KxTrader Beta 1.1.0-beta.68",
-  "published_at": "2026-08-29T21:10:39.4968250Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.68",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.68/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.71",
+  "build": 76,
+  "title": "KxTrader Beta 1.1.0-beta.71",
+  "published_at": "2026-08-31T19:00:04.1839161Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.71",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.71/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "4095b84a3d36d637198faadd1cd54e36b8d7f801659103d6b5332eca30d3fabd",
-  "size_bytes": 61108224,
+  "sha256": "a8d8bb8e8591779eed1293e8b75e6de7ddb295b9aa33c6f3ab0c818d9ab6d953",
+  "size_bytes": 62021632,
   "notes": [
-    "Inclui a taxa estimada da Kalshi nas simulacoes de P&L da ladder.",
-    "Destaca em amarelo os ticks cujo resultado bruto e consumido pela taxa estimada.",
-    "Adiciona a projecao rapida de P&L apos 2 segundos sobre uma celula BACK ou LAY, desativada por padrao.",
-    "Mostra no topo lado, stake, odd, resultados YES e NO e taxa estimada, sem criar ordens.",
-    "Da prioridade a simulacao completa por clique direito e evita sobreposicao entre os dois modos.",
-    "Mantem intactos envio de ordens, cancelamento, book, P&L conciliado, hedge, reservas e fast path de mercado."
+    "Mantém localmente o histórico básico dos trades encerrados pelo período configurado pelo usuário.",
+    "Adiciona Exportar PL com planilha mensal formatada, odds, fills, taxas e resultado do mercado.",
+    "Abre o seletor nativo do Windows para escolher a pasta somente após concluir a geração do Excel.",
+    "Aplica renderização tipográfica precisa em toda a ladder e inclui Cascadia Mono como fonte selecionável.",
+    "Corrige o marcador da odd atual para permanecer visível sobre a grade e sobre stakes plantadas.",
+    "Remove a identificação redundante do mercado abaixo do nome do evento no cabeçalho da ladder.",
+    "Mantém intactos envio de ordens, cancelamento prioritário, book, P&L conciliado, reservas e fast path de mercado."
   ]
 }
