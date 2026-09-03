@@ -1,20 +1,20 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.72",
-  "build": 77,
-  "title": "KxTrader Beta 1.1.0-beta.72",
-  "published_at": "2026-09-01T15:04:53.2467217Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.72",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.72/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.73",
+  "build": 78,
+  "title": "KxTrader Beta 1.1.0-beta.73",
+  "published_at": "2026-09-03T02:33:11.4099821Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.73",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.73/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "8ec436416a88e07f798b6778ce89277fcb56d0351558fd99bcec412cbe8af724",
-  "size_bytes": 62021632,
+  "sha256": "aaec31a521ce0bb4c250de525b66d38d485311bf9c3096b826ad9f4035439bda",
+  "size_bytes": 62025728,
   "notes": [
-    "Separa superfície estática, book, atividade e hover em camadas independentes para reduzir o custo de pintura da ladder.",
-    "Processa todas as mudanças de uma rajada sem criar fila visual e publica o book mais recente uma vez por quadro.",
-    "Faz cada mudança de BACK ou LAY piscar somente na célula alterada, com retenção independente dos pulsos.",
-    "Impede grade, odds e volumes de invadirem o cabeçalho P&L, LAY, ODDS, BACK e VOL durante a rolagem.",
-    "Mantém cabeçalho e corpo da ladder encaixados nas escalas de tela suportadas.",
-    "Preserva envio de ordens, cancelamento prioritário, P&L conciliado, reservas e marcador da odd atual."
+    "Reduz o painel de configurações para 820 x 720 e adota superfícies mais escuras, abas horizontais e controles compactos.",
+    "Compacta previews, cartões de tema, seletores, temporizadores, sons e atalhos sem remover opções existentes.",
+    "Aplica à tela principal o mesmo alinhamento tipográfico por pixel físico usado na ladder.",
+    "Usa pesos mais nítidos, espaçamento de letras zerado e números tabulares no topo, navegação e cards de mercado.",
+    "Renomeia a opção para Tipografia precisa do KxTrader para refletir o novo alcance visual.",
+    "Preserva o fast path, os pulsos individuais de BACK e LAY e todo o fluxo de ordens e cancelamentos."
   ]
 }
