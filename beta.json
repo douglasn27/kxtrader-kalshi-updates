@@ -1,20 +1,20 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.73",
-  "build": 78,
-  "title": "KxTrader Beta 1.1.0-beta.73",
-  "published_at": "2026-09-03T02:33:11.4099821Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.73",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.73/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.74",
+  "build": 79,
+  "title": "KxTrader Beta 1.1.0-beta.74",
+  "published_at": "2026-09-04T16:02:02.7034543Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.74",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.74/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "aaec31a521ce0bb4c250de525b66d38d485311bf9c3096b826ad9f4035439bda",
-  "size_bytes": 62025728,
+  "sha256": "be815e8e2d6b31a8716f891a0abde9c618bf0326164aff0d7010ea6a87609817",
+  "size_bytes": 62029824,
   "notes": [
-    "Reduz o painel de configurações para 820 x 720 e adota superfícies mais escuras, abas horizontais e controles compactos.",
-    "Compacta previews, cartões de tema, seletores, temporizadores, sons e atalhos sem remover opções existentes.",
-    "Aplica à tela principal o mesmo alinhamento tipográfico por pixel físico usado na ladder.",
-    "Usa pesos mais nítidos, espaçamento de letras zerado e números tabulares no topo, navegação e cards de mercado.",
-    "Renomeia a opção para Tipografia precisa do KxTrader para refletir o novo alcance visual.",
-    "Preserva o fast path, os pulsos individuais de BACK e LAY e todo o fluxo de ordens e cancelamentos."
+    "Ativa o filtro BRT para mostrar somente os eventos do dia no horário de Brasília.",
+    "Permite ligar e desligar a atualização automática dos mercados a cada 30 segundos.",
+    "Torna funcionais as ordenações por horário e por liquidez total agrupada.",
+    "Adota a nova Lista Densa, com cabeçalho de colunas e linhas compactas de 58 px.",
+    "Preserva os ícones esportivos e melhora o alinhamento de status, horário, volume e cotações.",
+    "Mantém filtros e ordenações no cliente, sem adicionar carga ao fast path da ladder ou ao fluxo de ordens."
   ]
 }
