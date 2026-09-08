@@ -1,20 +1,20 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.74",
-  "build": 79,
-  "title": "KxTrader Beta 1.1.0-beta.74",
-  "published_at": "2026-09-04T16:02:02.7034543Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.74",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.74/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.76",
+  "build": 81,
+  "title": "KxTrader Beta 1.1.0-beta.76",
+  "published_at": "2026-09-08T19:38:49.2793048Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.76",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.76/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "be815e8e2d6b31a8716f891a0abde9c618bf0326164aff0d7010ea6a87609817",
+  "sha256": "844f89b8fc00197d3e828116cffff1dbcfd030f1c4cabf4ccbbf93481c3eebdd",
   "size_bytes": 62029824,
   "notes": [
-    "Ativa o filtro BRT para mostrar somente os eventos do dia no horário de Brasília.",
-    "Permite ligar e desligar a atualização automática dos mercados a cada 30 segundos.",
-    "Torna funcionais as ordenações por horário e por liquidez total agrupada.",
-    "Adota a nova Lista Densa, com cabeçalho de colunas e linhas compactas de 58 px.",
-    "Preserva os ícones esportivos e melhora o alinhamento de status, horário, volume e cotações.",
-    "Mantém filtros e ordenações no cliente, sem adicionar carga ao fast path da ladder ou ao fluxo de ordens."
+    "Corrige o Match Odds ausente em partidas de tênis, incluindo Tiafoe x Michelsen.",
+    "Inclui as famílias ATP e WTA Match mesmo quando a Kalshi omite a etiqueta Tennis.",
+    "Associa títulos abreviados aos nomes completos das opções para reunir Match Odds e sets.",
+    "Preserva os filtros por esporte, competição e escopo, sem duplicar famílias de mercado.",
+    "Aplica o limite de resultados após a filtragem para não descartar eventos já consultados.",
+    "Não altera envio, cancelamento, P&L, pintura ou fast path da ladder."
   ]
 }
