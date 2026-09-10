@@ -1,20 +1,23 @@
 {
   "channel": "beta",
-  "version": "1.1.0-beta.76",
-  "build": 81,
-  "title": "KxTrader Beta 1.1.0-beta.76",
-  "published_at": "2026-09-08T19:38:49.2793048Z",
-  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.76",
-  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.76/KalshiLadderDesktopSetup.exe",
+  "version": "1.1.0-beta.77",
+  "build": 83,
+  "title": "KxTrader Beta 1.1.0-beta.77",
+  "published_at": "2026-09-10T12:34:27.8642821Z",
+  "release_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/tag/v1.1.0-beta.77",
+  "installer_url": "https://github.com/douglasn27/kxtrader-kalshi/releases/download/v1.1.0-beta.77/KalshiLadderDesktopSetup.exe",
   "delivery": "private_release",
-  "sha256": "844f89b8fc00197d3e828116cffff1dbcfd030f1c4cabf4ccbbf93481c3eebdd",
-  "size_bytes": 62029824,
+  "sha256": "a72c76b3385059596919020bf33c101d419cb8e2905e774655786490d483f203",
+  "size_bytes": 62091264,
   "notes": [
-    "Corrige o Match Odds ausente em partidas de tênis, incluindo Tiafoe x Michelsen.",
-    "Inclui as famílias ATP e WTA Match mesmo quando a Kalshi omite a etiqueta Tennis.",
-    "Associa títulos abreviados aos nomes completos das opções para reunir Match Odds e sets.",
-    "Preserva os filtros por esporte, competição e escopo, sem duplicar famílias de mercado.",
-    "Aplica o limite de resultados após a filtragem para não descartar eventos já consultados.",
-    "Não altera envio, cancelamento, P&L, pintura ou fast path da ladder."
+    "Oficializa o novo My Trades aprovado na versão de teste.",
+    "Gráficos de P&L diário e acumulado, lista densa, filtros e métricas do período.",
+    "Separa realizado líquido, aberto estimado, exposição e taxas; sinaliza histórico parcial e liquidação pendente.",
+    "Preserva a data de realização entre fills, liquidação e arquivo local, sem descontar taxas em duplicidade.",
+    "Exportar PL salva a seleção em Excel com resumo, mercados e gráficos.",
+    "O ícone do Account Tape recolhe a janela ao cabeçalho e restaura a altura anterior no próximo clique.",
+    "Mantém o filtro e a rolagem do Tape ao recolher, com proteção contra cliques sobrepostos.",
+    "Atualiza a instalação oficial, preservando suas configurações; a instalação de teste permanece separada.",
+    "Não altera envio, cancelamento, pintura ou fast path da ladder."
   ]
 }
